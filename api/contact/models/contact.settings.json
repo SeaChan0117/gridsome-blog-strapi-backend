@@ -2,24 +2,18 @@
   "kind": "collectionType",
   "collectionName": "contacts",
   "info": {
-    "name": "Contact"
+    "name": "contact"
   },
   "options": {
     "increments": true,
-    "timestamps": true,
-    "draftAndPublish": true
+    "timestamps": true
   },
-  "pluginOptions": {},
   "attributes": {
     "name": {
-      "type": "string",
-      "required": true,
-      "unique": false
+      "type": "string"
     },
     "email": {
-      "type": "email",
-      "required": true,
-      "unique": false
+      "type": "string"
     },
     "phone": {
       "type": "string"

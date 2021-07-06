@@ -6,15 +6,11 @@
   },
   "options": {
     "increments": true,
-    "timestamps": true,
-    "draftAndPublish": true
+    "timestamps": true
   },
-  "pluginOptions": {},
   "attributes": {
     "title": {
-      "type": "string",
-      "required": true,
-      "unique": true
+      "type": "string"
     },
     "posts": {
       "collection": "post",

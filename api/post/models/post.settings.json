@@ -2,20 +2,16 @@
   "kind": "collectionType",
   "collectionName": "posts",
   "info": {
-    "name": "Post",
-    "description": ""
+    "name": "Post"
   },
   "options": {
     "increments": true,
-    "timestamps": true,
-    "draftAndPublish": true
+    "timestamps": true
   },
-  "pluginOptions": {},
   "attributes": {
     "title": {
       "type": "string",
-      "required": true,
-      "unique": true
+      "required": true
     },
     "content": {
       "type": "richtext",
@@ -28,8 +24,7 @@
         "images"
       ],
       "plugin": "upload",
-      "required": false,
-      "pluginOptions": {}
+      "required": false
     },
     "is_publish": {
       "type": "boolean",
